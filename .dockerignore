@@ -1,0 +1,39 @@
+# Build output
+target
+
+# IDE
+.vscode
+.idea
+*.iml
+
+# Maven wrapper (not needed, using maven image)
+.mvn
+
+# Git
+.git
+.gitignore
+
+# Logs
+*.log
+logs
+
+# Documentation
+*.md
+!README.md
+
+# Scripts (not needed in container)
+*.bat
+*.sh
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker files
+Dockerfile
+docker-compose*.yml
+.dockerignore
+
+# Environment files
+*.env
+
